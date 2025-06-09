@@ -1,6 +1,27 @@
 # GFRIEND: Generative Few-shot Reward Inference through Efficient DPO
 
-This is the official implementation of our paper "GFRIEND: Generative Few-shot Reward Inference through Efficient DPO". The core process includes:
+<a href='https://arxiv.org/abs/2502.04413'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+
+💻 This is the official implementation for our paper [*GFRIEND: Generative Few-shot Reward Inference through Efficient DPO*](https://arxiv.org/abs/2502.04413).
+
+#### Authors
+[Yiyang Zhao](),  [Huiyu Bai](https://www.linkedin.com/in/huiyu-bai-04141622b/?originalSubdomain=sg), [Xuejiao Zhao*](https://zxjwudi.github.io/xuejiaozhao/)
+
+**Nanyang Technological University**
+
+\*\* Corresponding author
+
+---
+
+## :fire: News
+* **[2025.06.10]** We release the latest paper version on [arXiv](https://arxiv.org/abs/2502.04413).
+* **[2025.06.09]** We have added more detailed information on the dataset, RewardBench, and data preprocessing. Have a try!
+* **[2025.06.09]** We release the official implementation of GFRIEND.
+
+## Overview
+GFRIEND is a generative reward model for RLHF (Reinforcement Learning with Human Feedback) designed for scenarios with limited human preference data. Specifically, GFRIEND integrates a preference refinement module to produce diverse, high-quality preference data, mitigating data sparsity. Then, GFRIEND employs a multi-level preference modeling strategy rather than simple binary comparisons, using a perplexity-based scoring mechanism to quantify preference degrees and enable finer-grained reward modeling. Next, we modify the Direct Preference Optimization (DPO) loss by weighting sample pairs based on preference disparity, ensuring more representative data is emphasized during reward model training.
+
+The core processes of GFRIEND include:
 1. **SFT**: Supervised fine-tuning of the base model using a small amount of (question, chain-of-thought) data to enable it to generate high-quality thoughts/reasoning.
 2. **Preference Refinement**: Sampling multiple times on data with preference labels to generate diverse CoT (chain-of-thought) and judgment results, and expanding and fine-grainedly distinguishing preference data based on perplexity scoring.
 3. **M-DPO**: Weighted Direct Preference Optimization training on the above multi-level preference data.
@@ -91,5 +112,21 @@ M-DPO: Training with the generated multi-level preference data using a multi-lev
 ```bash
 python run_m_dpo.py
 ```
+
+## 📖 Citation
+
+If you find our work useful, please consider citing our papers:
+
+```bibtex
+
+@misc{zhao2025smartmultimodalhealthcarecopilot,
+      title={GFRIEND: Generative Few-shot Reward Inference through Efficient DPO}, 
+      author={Yiyang Zhao and Huiyu Bai and Xuejiao Zhao},
+      year={2025},
+      eprint={2506.02470},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2506.02470}, 
+}
 
 
