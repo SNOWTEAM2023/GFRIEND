@@ -16,10 +16,10 @@
 ## :fire: News
 * **[2025.06.10]** We release the latest paper version on [arXiv](https://arxiv.org/abs/2502.04413).
 * **[2025.06.09]** We have added more detailed information on the dataset, RewardBench, and data preprocessing. Have a try!
-* **[2025.06.09]** We release the official implementation of GFRIEND.
+* **[2025.06.09]** We release the official implementation of **GFRIEND**.
 
 ## Overview
-GFRIEND is a generative reward model for RLHF (Reinforcement Learning with Human Feedback) designed for scenarios with limited human preference data. Specifically, GFRIEND integrates a preference refinement module to produce diverse, high-quality preference data, mitigating data sparsity. Then, GFRIEND employs a multi-level preference modeling strategy rather than simple binary comparisons, using a perplexity-based scoring mechanism to quantify preference degrees and enable finer-grained reward modeling. Next, we modify the Direct Preference Optimization (DPO) loss by weighting sample pairs based on preference disparity, ensuring more representative data is emphasized during reward model training.
+**GFRIEND** is a generative reward model for **RLHF** (Reinforcement Learning with Human Feedback) designed for scenarios with **limited human preference data**. Specifically, GFRIEND integrates a **preference refinement module** to produce diverse, high-quality preference data, mitigating data sparsity. Then, GFRIEND employs a **multi-level preference modeling strategy** rather than simple binary comparisons, using a perplexity-based scoring mechanism to quantify preference degrees and enable finer-grained reward modeling. Next, we **modify the Direct Preference Optimization (DPO)** loss by weighting sample pairs based on preference disparity, ensuring more representative data is emphasized during reward model training.
 
 The core processes of GFRIEND include:
 1. **SFT**: Supervised fine-tuning of the base model using a small amount of (question, chain-of-thought) data to enable it to generate high-quality thoughts/reasoning.
