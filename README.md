@@ -1,6 +1,6 @@
 # GFRIEND: Generative Few-shot Reward Inference through Efficient DPO
 
-This is the official implementation of GFRIEND: Generative Few-shot Reward Inference through Efficient DPO. The core process includes:
+This is the official implementation of our paper "GFRIEND: Generative Few-shot Reward Inference through Efficient DPO". The core process includes:
 1. **SFT**: Supervised fine-tuning of the base model using a small amount of (question, chain-of-thought) data to enable it to generate high-quality thoughts/reasoning.
 2. **Preference Refinement**: Sampling multiple times on data with preference labels to generate diverse CoT (chain-of-thought) and judgment results, and expanding and fine-grainedly distinguishing preference data based on perplexity scoring.
 3. **M-DPO**: Weighted Direct Preference Optimization training on the above multi-level preference data.
