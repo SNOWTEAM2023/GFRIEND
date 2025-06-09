@@ -9,7 +9,7 @@
 
 **Nanyang Technological University**
 
-\*\* Corresponding author
+\* Corresponding author
 
 ---
 
