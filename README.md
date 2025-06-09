@@ -27,13 +27,12 @@ The core processes of GFRIEND include:
 3. **M-DPO**: Weighted Direct Preference Optimization training on the above multi-level preference data.
 
 
-<div align="left"> <img src="./fig/fig9.png" alt="diseases knowledge graph" width="450"> </div >
-    <p><em>Figure 1:  The overall framework of MedRAG.</em></p >
+<div align="left"> <img src="./fig/figxj.png" alt="diseases knowledge graph" width="420"> </div >
+    <p><em><strong>Figure 1: The overall framework of GFRIEND.</strong> The steps for generating more preference data with a preference dataset that includes preference labels for a pair of answers to a question.</em></p>
 
-![The steps for Generating more preference datas with a preference dataset that includes preference labels for a pair of answers to a question.](./fig/fig9.png)  
+<!-- ![The steps for Generating more preference datas with a preference dataset that includes preference labels for a pair of answers to a question.](./fig/fig9.png)   -->
 
-
-*Figure 1: The steps for Generating more preference datas with a preference dataset that includes preference labels for a pair of answers to a question.*
+<!-- *Figure 1: The steps for Generating more preference datas with a preference dataset that includes preference labels for a pair of answers to a question.* -->
 
 
 ## Dataset
