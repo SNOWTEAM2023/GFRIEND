@@ -1,0 +1,11 @@
+torch>=1.13
+transformers>=4.30
+datasets>=2.10
+accelerate>=0.20
+# If DeepSpeed or other libraries are needed, they can be added as required.
+deepspeed
+numpy
+tqdm
+scipy
+sentencepiece
+# ...
