@@ -122,7 +122,7 @@ If you find our work useful, please consider citing our papers:
 
 ```bibtex
 
-@misc{zhao2025smartmultimodalhealthcarecopilot,
+@misc{zhao2025gfriendgenerativefewshotreward,
       title={GFRIEND: Generative Few-shot Reward Inference through Efficient DPO}, 
       author={Yiyang Zhao and Huiyu Bai and Xuejiao Zhao},
       year={2025},
