@@ -1,8 +1,8 @@
 # GFRIEND: Generative Few-shot Reward Inference through Efficient DPO
 
-<a href='https://arxiv.org/abs/2502.04413'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://arxiv.org/abs/2506.08965'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
-💻 This is the official implementation for our paper [*GFRIEND: Generative Few-shot Reward Inference through Efficient DPO*](https://arxiv.org/abs/2502.04413).
+💻 This is the official implementation for our paper [*GFRIEND: Generative Few-shot Reward Inference through Efficient DPO*](https://arxiv.org/abs/2506.08965).
 
 #### Authors
 [Yiyang Zhao](),  [Huiyu Bai](https://www.linkedin.com/in/huiyu-bai-04141622b/?originalSubdomain=sg), [Xuejiao Zhao*](https://zxjwudi.github.io/xuejiaozhao/)
@@ -14,7 +14,7 @@
 ---
 
 ## :fire: News
-* **[2025.06.10]** We release the latest paper version on [arXiv](https://arxiv.org/abs/2502.04413).
+* **[2025.06.10]** We release the latest paper version on [arXiv](https://arxiv.org/abs/2506.08965).
 * **[2025.06.09]** We have added more detailed information on the dataset, RewardBench, and data preprocessing. Have a try!
 * **[2025.06.09]** We release the official implementation of **GFRIEND**.
 
@@ -126,10 +126,10 @@ If you find our work useful, please consider citing our papers:
       title={GFRIEND: Generative Few-shot Reward Inference through Efficient DPO}, 
       author={Yiyang Zhao and Huiyu Bai and Xuejiao Zhao},
       year={2025},
-      eprint={2506.02470},
+      eprint={2506.08965},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2506.02470}, 
+      url={https://arxiv.org/abs/2506.08965}, 
 }
 
 
