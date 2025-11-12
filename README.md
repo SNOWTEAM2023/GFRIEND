@@ -5,7 +5,7 @@
 💻 This is the official implementation for our paper [*GFRIEND: Generative Few-shot Reward Inference through Efficient DPO*](https://arxiv.org/abs/2506.08965).
 
 #### Authors
-[Yiyang Zhao](),  [Huiyu Bai](https://www.linkedin.com/in/huiyu-bai-04141622b/?originalSubdomain=sg), [Xuejiao Zhao*](https://zxjwudi.github.io/xuejiaozhao/)
+[Yiyang Zhao](),  [Zhiqi Shen](https://dr.ntu.edu.sg/entities/person/Shen-Zhiqi), [Xuejiao Zhao*](https://zxjwudi.github.io/xuejiaozhao/)
 
 **Nanyang Technological University**
 
